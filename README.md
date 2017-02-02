@@ -24,7 +24,7 @@ $npm run build
 $npm start
 ```
 
-## Run Builded App
+## Run Built App
 ```
 $npm run serve
 ```
