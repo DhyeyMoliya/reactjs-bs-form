@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Download</title>
+    </head>
+    <body>
+        <a id="downloadlink" download="data.json" href="#">Download</a>
+        <script src="../lib/DownloadBuilder.min.js"></script>
+        <script>
+            var builder = new DownloadBuilder();
+        
+            builder.createURL({ "fileName": "test", "fileType": "json", "fileContent": '{ "color": "red" }', "callback": function(url) {
+                document.getElementById("downloadlink").setAttribute("href", url);
+            } });
+        </script>
+    </body>
+</html>
+
