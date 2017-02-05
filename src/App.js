@@ -18,6 +18,7 @@ class App extends Component {
       <Row className="head">
         <h1>Test <Button bsStyle="primary" onClick={() => this.downloadCurrentData()}>Download Current Data</Button></h1>
         <p>5 STEPS - All Steps are required with minimum 1 answer.</p>
+        <p><i>Note: Because of limitation of curent browsers (not supporting HTML5 download option), you should use Chrome or Mozilla to best use this Web App.</i></p>
       </Row>
       <Row>
         <Pager className="pager">
