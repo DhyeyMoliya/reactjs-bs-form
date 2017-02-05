@@ -31,3 +31,49 @@
 .pager {
   margin-bottom: 0px;
 }
+
+.resume-choice{
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+}
+
+.button {
+  margin: 10px;
+}
+.stars {
+  display: inline-block;
+}
+
+.skill-level {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.rater{
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.react-rater {
+  display: inline-block;
+  line-height: normal;
+  height: inherit;
+  vertical-align: middle; }
+  .react-rater a {
+    cursor: pointer;
+    color: #ccc;
+    position: relative; }
+    .react-rater a.will-be-active {
+      color: #ffdd99; }
+    .react-rater a.is-active {
+      color: #fc6; }
+    .react-rater a.is-active-half:before {
+      color: #fc6;
+      content: '\2605';
+      position: absolute;
+      left: 0;
+      width: 50%;
+      overflow: hidden; }
+    .react-rater a.is-disabled {
+      cursor: default; }
