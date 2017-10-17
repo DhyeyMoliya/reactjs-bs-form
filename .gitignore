@@ -16,3 +16,6 @@ npm-debug.log
 
 # heroku
 heroku
+
+#WebStorm
+.idea
